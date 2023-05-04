@@ -1,6 +1,7 @@
 
 import 'package:RetailTribeBuffet/splashscreeb.dart';
 import 'package:flutter/material.dart';
+import 'bottom.dart';
 
 import 'drink screen.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: MyBottomNavigationBar(),
     );
   }
 }
